@@ -106,6 +106,15 @@ public void setDatetime(Date datetime) {
   - Dynamically constructs method names following JavaBeans conventions.
   - Maintains the original indentation of the source code.
 
+## Future Improvements
+
+The following enhancements are planned for future versions:
+
+- **[Make annotation and type settings configurable](https://github.com/m-bitterC2/AnnotationRelocator/issues/1)**: Allow users to specify which annotations and field types should be processed through configuration files (e.g., JSON or YAML).
+- **[Support parameterized annotations](https://github.com/m-bitterC2/AnnotationRelocator/issues/2)**: Extend the tool to work with other annotations similar to `@JsonbTypeAdapter`, making it more flexible.
+- **[Add a dry-run mode and logging feature](https://github.com/m-bitterC2/AnnotationRelocator/issues/3)**: Provide an option to preview changes before applying them, along with logging capabilities.
+- **[Enhance test cases and automation](https://github.com/m-bitterC2/AnnotationRelocator/issues/4)**: Introduce unit tests to validate different formatting styles and ensure robustness across various use cases.
+
 ## Notes
 
 - **Backup Recommendation:**
